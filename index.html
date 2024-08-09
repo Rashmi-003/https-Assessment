@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <style>
+          body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+        }
+        header{
+            background-color: #ff6969;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+        }
+        header nav{
+            display: inline-block;
+            margin: 0 auto;
+        }
+        header ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+        header li{
+            display: inline-block;
+            margin: 0 15px;
+        }
+        header a{
+            text-decoration: none;
+            color:black;
+            font-weight: bold;
+            font-family:Georgia,  Times;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 70px;
+        }
+
+        .left {
+            width: 50%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: left;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            text-align: left;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        button {
+            background-color: #ff6969;
+            color: white;
+            padding: 15px 50px;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+        }
+
+        .right {
+            width: 40%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            .left, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <div class="left">
+            <h1>LOREM IPSUM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam ut tristique. Curabitur nec faucibus purus. Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra.</p>
+            <button>Click Me</button>
+        </div>
+        <div class="right">
+            <img src="i1.jpg" alt="Burger and fries">
+        </div>
+    </main>
+</body>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe5f0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  width: 100%;
+  max-width: 500px;
+  height: 200px;
+  margin:  10px;
+  text-align: center;
+  background-color: #ff6969;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7289;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="image-container">
+    <img src="i2.jfif" alt="Image 1" class="image">
+  </div>
+  <div class="image-container">
+    <img src="i3.jfif" alt="Image 2" class="image">
+  </div>
+  <div class="image-container">
+    <img src="i4.jfif" alt="Image 3" class="image">
+  </div>
+  <div class="text-container" >
+    <p><small> LOREM IPSUM</small></p>
+    <h2><b>LOREM IPSUM SET ADEMIR</b></h2>
+    <a href="#" class="button">Click</a>
+  </div>
+</div>
+
+</body>
+</html>
